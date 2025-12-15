@@ -1,0 +1,11 @@
+tasklist /FI "IMAGENAME eq python.exe"
+Get-Children-Path . -Filter "*.lock" -Recurse
+Get-Content .run.lock
+dir .run.lock   # cek dulu beneran ada
+
+# lalu hapus
+Remove-Item .run.lock
+# atau versi pendek:
+del .run.lock
+tasklist | Select-String -Pattern "chrome", "chromedriver"
+
