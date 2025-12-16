@@ -78,7 +78,5 @@ Jangan menyalahgunakan scraping untuk spam, pelanggaran privasi, atau aktivitas 
 
 Pertimbangkan rate limit dan frekuensi scraping agar tidak membebani layanan.
 
-MIT License
 
-Copyright (c) 2025 <Ardiva Nugraheni>
 
