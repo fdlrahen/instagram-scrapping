@@ -69,6 +69,15 @@ Jika memakai Selenium / undetected-chromedriver:
 ## Instalasi
 
 1. **Clone repository**
+2. **Install Requirement**
+3. **atur .env**
+4. **Jalankan login_cookies dan ig_login**
+5. **Jika find_url.py headless disetel false maka pastika login_cookies session nya terbaru**
+6. **Jalankan main.py**
+7. **main.py punya 3 args
+   python main.py
+   python main.py --fetch-only
+   python main.py --no-scrape**
 
 ## Etika & Batasan
 
